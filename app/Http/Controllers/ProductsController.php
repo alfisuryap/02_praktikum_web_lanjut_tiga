@@ -18,7 +18,7 @@ class ProductsController extends Controller
 
     public function books()
     {
-        return redirect()->to('https://www.educastudio.com/category/riri-story-books-animation');
+        return redirect()->to('https://www.educastudio.com/category/riri-story-books-animations');
     }
 
     public function songs()
