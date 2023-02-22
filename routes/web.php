@@ -42,7 +42,7 @@ Route::prefix('/Program')->group(function () {
 });
 
 // About Us
-Route::get('/about-us', [AboutController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index']);
 
 // Contact Us
-Route::resource('/contact-us', ContactController::class)->only(['index']);
+Route::resource('/contact', ContactController::class)->only(['index']);
