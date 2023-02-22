@@ -4,24 +4,24 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class ProductsController extends Controller
 {
-    public function marble()
+    public function edu()
     {
         return redirect()->to('https://www.educastudio.com/category/marbel-edu-games');
     }
 
-    public function kid()
+    public function kids()
     {
         return redirect()->to('https://www.educastudio.com/category/marbel-and-friends-kids-games');
     }
 
-    public function book()
+    public function books()
     {
-        return redirect()->to('https://www.educastudio.com/category/riri-story-books');
+        return redirect()->to('https://www.educastudio.com/category/riri-story-books-animation');
     }
 
-    public function song()
+    public function songs()
     {
         return redirect()->to('https://www.educastudio.com/category/kolak-kids-songs');
     }

@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return '<h1> Welcome to Educastudio </h1>';
+        return redirect()->to('https://www.educastudio.com');
     }
 }
