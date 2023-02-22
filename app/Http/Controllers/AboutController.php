@@ -8,6 +8,6 @@ class AboutController extends Controller
 {
     public function index()
     {
-        return redirect()->to('https://www.educastudio.com/about-us');
+        return redirect()->to('https://www.educastudio.com/about');
     }
 }

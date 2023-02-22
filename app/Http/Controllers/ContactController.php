@@ -13,7 +13,7 @@ class ContactController extends Controller
      */
     public function index()
     {
-        return redirect()->to('https://www.educastudio.com/contact-us');
+        return redirect()->to('https://www.educastudio.com/contact');
     }
 
     /**
